@@ -24,13 +24,15 @@ Suggests:
     cowplot,
     forcats,
     tidyverse,
-    viridis
+    viridis,
+    plotly
 VignetteBuilder: knitr
 Collate:
     'data.R'
     'ggjoy.R'
     'geoms.R'
     'geoms-gradient.R'
+    'plotly.R'
     'scale-cyclical.R'
     'stats.R'
     'theme.R'
