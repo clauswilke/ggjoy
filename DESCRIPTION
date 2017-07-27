@@ -32,6 +32,7 @@ Collate:
     'ggjoy.R'
     'geoms.R'
     'geoms-gradient.R'
+    'plotly.R'
     'scale-cyclical.R'
     'stats.R'
     'theme.R'
