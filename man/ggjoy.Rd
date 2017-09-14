@@ -4,7 +4,33 @@
 \name{ggjoy}
 \alias{ggjoy}
 \alias{ggjoy-package}
-\title{ggjoy.}
+\alias{geom_joy}
+\alias{geom_joy2}
+\alias{geom_joy_gradient}
+\alias{stat_joy}
+\alias{theme_joy}
+\title{ggjoy}
+\usage{
+geom_joy(mapping = NULL, data = NULL, stat = "density_ridges",
+  panel_scaling = TRUE, na.rm = FALSE, show.legend = NA,
+  inherit.aes = TRUE, ...)
+
+geom_joy2(mapping = NULL, data = NULL, stat = "density_ridges",
+  panel_scaling = TRUE, na.rm = FALSE, show.legend = NA,
+  inherit.aes = TRUE, ...)
+
+geom_joy_gradient(mapping = NULL, data = NULL, stat = "density_ridges",
+  panel_scaling = TRUE, na.rm = TRUE, gradient_lwd = 0.5,
+  show.legend = NA, inherit.aes = TRUE, ...)
+
+stat_joy(mapping = NULL, data = NULL, geom = "density_ridges",
+  position = "identity", na.rm = FALSE, show.legend = NA,
+  inherit.aes = TRUE, bandwidth = NULL, from = NULL, to = NULL,
+  calc_ecdf = FALSE, quantiles = 5, ...)
+
+theme_joy(font_size = 14, font_family = "", line_size = 0.5,
+  grid = TRUE, center_axis_labels = FALSE)
+}
 \description{
-ggjoy.
+This package is deprecated. Please switch over to using \link{ggridges}.
 }

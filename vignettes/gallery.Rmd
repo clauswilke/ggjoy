@@ -17,6 +17,8 @@ library(ggplot2)
 library(ggjoy)
 ```
 
+The ggjoy package has been deprecated. Please switch over to [ggridges](https://CRAN.R-project.org/package=ggridges). The following materials are retained for historical reference only.
+
 
 ## Evolution of movie lengths over time
 

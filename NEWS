@@ -1,3 +1,8 @@
+ggjoy 0.4.0
+----------------------------------------------------------------
+- All code has been moved over to package ggridges. As of this version, ggjoy
+  simply calls ggridges and re-exports relevant functions under the old name.
+
 ggjoy 0.3.0.9000
 ----------------------------------------------------------------
 - Added an option to center axis labels to `theme_joy()`.
