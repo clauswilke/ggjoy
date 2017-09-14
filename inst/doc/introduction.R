@@ -8,12 +8,12 @@ ggplot(data, aes(x, y, height = height)) + geom_ridgeline()
 
 ## ----message=FALSE, fig.width=9, fig.height=3----------------------------
 # for side-by-side plotting
-library(cowplot); theme_set(theme_gray())
+library(gridExtra)
 
 data <- data.frame(x = 1:5, y = rep(1, 5), height = c(0, 1, -1, 3, 2))
 plot_base <- ggplot(data, aes(x, y, height = height))
-plot_grid(plot_base + geom_ridgeline(),
-          plot_base + geom_ridgeline(min_height = -2))
+grid.arrange(plot_base + geom_ridgeline(),
+          plot_base + geom_ridgeline(min_height = -2), ncol = 2)
 
 ## ------------------------------------------------------------------------
 d <- data.frame(x = rep(1:5, 3), y = c(rep(0, 5), rep(1, 5), rep(2, 5)),

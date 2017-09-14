@@ -9,15 +9,21 @@ Description: Joyplots provide a convenient way of visualizing changes in distrib
 URL: https://github.com/clauswilke/ggjoy
 Depends:
     R (>= 3.2),
+    ggplot2 (>= 2.2.0),
     ggridges (>= 0.4.0),
 Imports:
 License: GPL-2 | file LICENSE
 LazyData: true
 Suggests:
     covr,
+    gridExtra,
+    ggplot2movies,
+    forcats,
     knitr,
+    tidyverse,
     testthat,
     vdiffr,
+    viridis
 VignetteBuilder: knitr
 Collate:
     'ggjoy.R'
