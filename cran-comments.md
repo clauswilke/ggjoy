@@ -1,10 +1,6 @@
-This is a minor version increase for ggjoy, providing numerous improvements and new features. It also adds
-a missing import statement that wasn't flagged by CRAN check for the previous submission.
+With this submission, I am deprecating the package ggjoy. In hindsight, the name was chosen in poor taste (see here for some background: https://en.wikipedia.org/wiki/House_of_Dolls). A replacement package (ggridges) is already on CRAN.
 
-One data file contains UTF-8 marked strings. The file contains election results from Catalania,
-and the municipality names contain non-ASCII characters. None of these names make it into the
-example figure that is generated from this file, so I think it is best to leave the file as is
-for completeness.
+In this current iteration, the ggjoy package simply loads the ggridges package, warns the user that ggjoy is deprecated, and reexports relevant ggridges functions under their old ggjoy name so that existing code continues to run.
 
 ## Test environments
 * R devel and R 3.4.1 on win-builder [ via devtools::build_win() ]
