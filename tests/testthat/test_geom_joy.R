@@ -5,6 +5,8 @@ context("geom_joy")
 # Visual tests ------------------------------------------------------------
 
 test_that("geom_joy draws correctly", {
+  testthat::skip_on_cran()
+
   p <- ggplot(iris, aes(x = Sepal.Length, y = Species)) + geom_joy()
   vdiffr::expect_doppelganger("geom_joy basic", p)
 

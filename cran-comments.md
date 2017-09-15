@@ -7,13 +7,7 @@ In this current iteration, the ggjoy package simply loads the ggridges package, 
 * local OS X install x86_64-apple-darwin15.6.0 (64-bit), R 3.4.1
 
 ## R CMD check results
-There were no ERRORs or WARNINGs.
-
-There is one NOTE, about spelling:
-Possibly mis-spelled words in DESCRIPTION:
-  Joyplots (3:8, 8:14)
-
-The spelling is correct.
+There were no ERRORs, WARNINGs, or NOTEs.
 
 ## Downstream dependencies
 None at this time.
