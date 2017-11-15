@@ -17,7 +17,7 @@ knitr::opts_chunk$set(
 [![Build Status](https://travis-ci.org/clauswilke/ggjoy.svg?branch=master)](https://travis-ci.org/clauswilke/ggjoy)
 [![Coverage Status](https://img.shields.io/codecov/c/github/clauswilke/ggjoy/master.svg)](https://codecov.io/github/clauswilke/ggjoy?branch=master)
 [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/ggjoy)](https://CRAN.R-project.org/package=ggjoy)
-[![CRAN_Downloads_Badge](http://cranlogs.r-pkg.org/badges/grand-total/ggjoy?color=brightgreen)](http://cranlogs.r-pkg.org/downloads/total/last-month/ggjoy)
+[![CRAN_Downloads_Badge](http://cranlogs.r-pkg.org/badges//ggjoy)](http://cranlogs.r-pkg.org/downloads/total/last-month/ggjoy)
 
 
 The ggjoy package has been deprecated. Please switch over to [ggridges](https://CRAN.R-project.org/package=ggridges). To port from ggjoy to ggridges, make the following substitutions in your code:
