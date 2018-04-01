@@ -1,3 +1,7 @@
+ggjoy 0.4.1
+----------------------------------------------------------------
+- Dependency on tidyverse package has been removed. Only dplyr is needed.
+
 ggjoy 0.4.0
 ----------------------------------------------------------------
 - All code has been moved over to package ggridges. As of this version, ggjoy

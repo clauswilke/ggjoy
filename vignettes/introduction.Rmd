@@ -210,7 +210,7 @@ ggplot(mpg, aes(x = class, fill = class, color = class)) +
 
 While the previous example won't win any design awards, more subtle effects can be helpful.
 ```{r message=FALSE, fig.width=5.5}
-library(tidyverse)
+library(dplyr)
 mpg %>% group_by(class) %>% tally() %>% arrange(desc(n)) %>%
   mutate(class = factor(class, levels=class)) %>%
   ggplot(aes(x = class, y = n, fill = class)) + 
@@ -233,7 +233,6 @@ Second, there may be scenarios in which you don't want `geom_joy` to do any dens
 
 As an example, assume we have calculated density curves for the `Sepal.Length` column in the `iris` dataset:
 ```{r message=FALSE}
-library(tidyverse)
 iris %>% group_by(Species) %>%
   do(ggplot2:::compute_density(.$Sepal.Length, NULL)) %>%
   rename(Sepal.Length = x) -> iris_densities

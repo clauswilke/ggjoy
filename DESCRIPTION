@@ -1,7 +1,7 @@
 Package: ggjoy
 Type: Package
 Title: Joyplots in 'ggplot2'
-Version: 0.4.0
+Version: 0.4.1
 Authors@R: c( 
     person("Claus O.", "Wilke", , "wilke@austin.utexas.edu", c("cre", "aut")),
     person("RStudio", role = c("cph"), comment = "Copyright for ggplot2 code copied to ggjoy"))
@@ -16,11 +16,12 @@ License: GPL-2 | file LICENSE
 LazyData: true
 Suggests:
     covr,
+    dplyr,
     gridExtra,
     ggplot2movies,
     forcats,
     knitr,
-    tidyverse,
+    rmarkdown,
     testthat,
     vdiffr,
     viridis

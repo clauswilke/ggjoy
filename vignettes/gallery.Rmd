@@ -37,7 +37,7 @@ ggplot(movies[movies$year>1912,], aes(x = length, y = year, group = year)) +
 Modified after [a figure](https://twitter.com/marcbeldata/status/888697140268204032) originally created by Marc Belzunces. 
 
 ```{r message=FALSE, warning=FALSE, fig.width = 6, fig.height = 8}
-library(tidyverse)
+library(dplyr)
 library(forcats)
 Catalan_elections %>%
   mutate(YearFct = fct_rev(as.factor(Year))) %>%
