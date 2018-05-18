@@ -3,8 +3,8 @@
 #' This package is deprecated. Please switch over to using [ggridges].
 #' @name ggjoy
 #' @docType package
-#' @import ggplot2
 #' @import ggridges
+#' @importFrom ggplot2 margin
 NULL
 
 #' @usage NULL

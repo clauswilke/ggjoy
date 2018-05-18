@@ -1,14 +1,16 @@
-With this submission, I am deprecating the package ggjoy. In hindsight, the name was chosen in poor taste (see here for some background: https://en.wikipedia.org/wiki/House_of_Dolls). A replacement package (ggridges) is already on CRAN.
-
-In this current iteration, the ggjoy package simply loads the ggridges package, warns the user that ggjoy is deprecated, and reexports relevant ggridges functions under their old ggjoy name so that existing code continues to run.
+The ggjoy package is deprecated and all functionality is now provided by ggridges. This latest version of the package strips ggjoy to the absolute minimum to re-export ggridges functions under their old names for backwards compatibility.
 
 ## Test environments
-* R devel and R 3.4.1 on win-builder [ via devtools::build_win() ]
-* local OS X install x86_64-apple-darwin15.6.0 (64-bit), R 3.4.1
+* R devel and R 3.5.0 on win-builder [ via devtools::build_win() ]
+* local OS X install x86_64-apple-darwin15.6.0 (64-bit), R 3.5.0
 
 ## R CMD check results
 There were no ERRORs, WARNINGs, or NOTEs.
 
 ## Downstream dependencies
-None at this time.
 
+One, package 'rstansim'. It checks clean:
+
+|package  |version | errors| warnings| notes|
+|:--------|:-------|------:|--------:|-----:|
+|rstansim |0.1.1   |      0|        0|     0|
